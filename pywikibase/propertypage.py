@@ -10,9 +10,9 @@ Handling a Wikibase property pages.
 #
 from __future__ import unicode_literals
 
-from wikibasepage import WikibasePage
-from wbproperty import Property
-from calim import Claim
+from pywikibase.wikibasepage import WikibasePage
+from pywikibase.wbproperty import Property
+from pywikibase.claim import Claim
 
 
 class PropertyPage(WikibasePage, Property):

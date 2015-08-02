@@ -12,7 +12,7 @@ from __future__ import unicode_literals
 
 import math
 
-from exceptions import CoordinateGlobeUnknownException
+from pywikibase.exceptions import CoordinateGlobeUnknownException
 
 
 class Coordinate(object):

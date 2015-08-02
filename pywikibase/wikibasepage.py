@@ -13,8 +13,6 @@ from collections import defaultdict, Counter
 
 import json
 
-from claim import Claim
-
 
 class WikibasePage(object):
 
@@ -63,6 +61,7 @@ class WikibasePage(object):
                     'descriptions'][lang]['value']
 
         # claims
+        from pywikibase.claim import Claim # noqa
         self.claims = {}
         if 'claims' in self._content:
             for pid in self._content['claims']:

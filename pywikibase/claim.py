@@ -11,11 +11,10 @@ Handling claims in a Wikibase entity.
 from __future__ import unicode_literals
 from collections import defaultdict, OrderedDict
 
-from coordinate import Coordinate
-from wbtime import WbTime
-from wbquantity import WbQuantity
-from itempage import ItemPage
-from wbproperty import Property
+from pywikibase import Coordinate
+from pywikibase import WbTime
+from pywikibase import WbQuantity
+from pywikibase import Property
 
 
 class Claim(Property):

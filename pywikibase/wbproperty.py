@@ -10,11 +10,15 @@ Handling a Wikibase property.
 #
 from __future__ import unicode_literals
 
-from coordinate import Coordinate
-from wbtime import WbTime
-from wbquantity import WbQuantity
-from itempage import ItemPage
+from pywikibase.coordinate import Coordinate
+from pywikibase.wbtime import WbTime
+from pywikibase.wbquantity import WbQuantity
+from pywikibase.itempage import ItemPage
 
+try:
+    unicode = unicode
+except NameError:
+    basestring = (str,bytes)
 
 class Property():
 

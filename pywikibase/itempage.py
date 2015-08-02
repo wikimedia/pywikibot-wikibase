@@ -12,8 +12,7 @@ from __future__ import unicode_literals
 
 import re
 
-from claim import Claim
-from wikibasepage import WikibasePage
+from pywikibase.wikibasepage import WikibasePage
 
 
 class ItemPage(WikibasePage):
@@ -103,7 +102,8 @@ class ItemPage(WikibasePage):
         """
         # this check allows single claims to be removed by pushing them into a
         # list of length one.
-        if isinstance(claims, Claim):
+        from pywikibase.claim import Claim # noqa
+        if not iterable(claims, Claim):
             claims = [claims]
         for claim in claims:
             if claim in self.claims.get(claim.getID(), []):

@@ -1,11 +1,11 @@
-from coordinate import Coordinate
-from wbtime import WbTime
-from wbquantity import WbQuantity
-from itempage import ItemPage
-from wbproperty import Property
-from propertypage import PropertyPage
-from wikibasepage import WikibasePage
-from claim import Claim
+from pywikibase.coordinate import Coordinate
+from pywikibase.wbtime import WbTime
+from pywikibase.wbquantity import WbQuantity
+from pywikibase.wbproperty import Property
+from pywikibase.claim import Claim
+from pywikibase.wikibasepage import WikibasePage
+from pywikibase.itempage import ItemPage
+from pywikibase.propertypage import PropertyPage
 
 # Not to mess with pyflakes
 __all__ = (Coordinate, WbQuantity, WbTime, ItemPage, Property, PropertyPage,
