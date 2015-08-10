@@ -67,7 +67,7 @@ class WikibasePage(object):
             for pid in self._content['claims']:
                 self.claims[pid] = []
                 for claim in self._content['claims'][pid]:
-                    c = Claim.fromJSON(self.repo, claim)
+                    c = Claim.fromJSON(claim)
                     c.on_item = self
                     self.claims[pid].append(c)
 

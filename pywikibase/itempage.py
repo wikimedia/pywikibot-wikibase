@@ -26,12 +26,10 @@ class ItemPage(WikibasePage):
     been looked up, the item is then defined by the qid.
     """
 
-    def __init__(self, site=None, title=None, content=None):
+    def __init__(self, title=None, content=None):
         """
         Constructor.
 
-        @param site: data repository
-        @type site: pywikibot.site.DataSite
         @param title: id number of item, "Q###",
                       -1 or None for an empty item.
         @type title: str

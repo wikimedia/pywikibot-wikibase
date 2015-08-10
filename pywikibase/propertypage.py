@@ -22,15 +22,13 @@ class PropertyPage(WikibasePage, Property):
 
     Should be created as::
 
-        PropertyPage(DataSite, 'P21')
+        PropertyPage('P21')
     """
 
     def __init__(self, source=None, title=u""):
         """
         Constructor.
 
-        @param source: data repository property is on
-        @type source: pywikibot.site.DataSite or None
         @param title: page name of property, like "P##"
         @type title: str
         """
@@ -56,5 +54,5 @@ class PropertyPage(WikibasePage, Property):
 
         @return: Claim
         """
-        return Claim(self.site, self.getID(), datatype=self.type,
+        return Claim(self.getID(), datatype=self.type,
                      *args, **kwargs)

@@ -40,7 +40,7 @@ class WbTime(object):
     def __init__(self, year=None, month=None, day=None,
                  hour=None, minute=None, second=None,
                  precision=None, before=0, after=0,
-                 timezone=0, calendarmodel=None, site=None):
+                 timezone=0, calendarmodel=None):
         """
         Create a new WbTime object.
 

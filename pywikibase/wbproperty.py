@@ -49,17 +49,14 @@ class Property():
                    'globe-coordinate': 'globecoordinate',
                    }
 
-    def __init__(self, site=None, id=None, datatype=None):
+    def __init__(self, id=None, datatype=None):
         """
         Constructor.
 
-        @param site: data repository or None
-        @type site: pywikibot.site.DataSite
         @param datatype: datatype of the property;
             if not given, it will be queried via the API
         @type datatype: basestring
         """
-        self.repo = site
         self.id = id.upper()
         if datatype:
             self._type = datatype

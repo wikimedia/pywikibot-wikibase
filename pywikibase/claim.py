@@ -26,29 +26,27 @@ class Claim(Property):
     """
 
     TARGET_CONVERTER = {
-        'wikibase-item': lambda value, site:
-            ItemPage(site, 'Q' + str(value['numeric-id'])),
+        'wikibase-item': lambda value:
+            ItemPage('Q' + str(value['numeric-id'])),
         'globe-coordinate': Coordinate.fromWikibase,
-        'time': lambda value, site: WbTime.fromWikibase(value),
-        'quantity': lambda value, site: WbQuantity.fromWikibase(value),
+        'time': lambda value: WbTime.fromWikibase(value),
+        'quantity': lambda value: WbQuantity.fromWikibase(value),
     }
 
-    def __init__(self, site, pid, snak=None, hash=None, isReference=False,
+    def __init__(self, pid, snak=None, hash=None, isReference=False,
                  isQualifier=False, **kwargs):
         """
         Constructor.
 
-        Defined by the "snak" value, supplemented by site + pid
+        Defined by the "snak" value, supplemented by pid
 
-        @param site: repository the claim is on
-        @type site: pywikibot.site.DataSite or None
         @param pid: property id, with "P" prefix
         @param snak: snak identifier for claim
         @param hash: hash identifier for references
         @param isReference: whether specified claim is a reference
         @param isQualifier: whether specified claim is a qualifier
         """
-        Property.__init__(self, site, pid, **kwargs)
+        Property.__init__(self, pid, **kwargs)
         self.snak = snak
         self.hash = hash
         self.isReference = isReference
@@ -64,7 +62,7 @@ class Claim(Property):
         self.on_item = None  # The item it's on
 
     @classmethod
-    def fromJSON(cls, site, data):
+    def fromJSON(cls, data):
         """
         Create a claim object from JSON returned in the API call.
 
@@ -73,7 +71,7 @@ class Claim(Property):
 
         @return: Claim
         """
-        claim = cls(site, data['mainsnak']['property'],
+        claim = cls(data['mainsnak']['property'],
                     datatype=data['mainsnak'].get('datatype', None))
         if 'id' in data:
             claim.snak = data['id']
@@ -87,21 +85,21 @@ class Claim(Property):
             value = data['mainsnak']['datavalue']['value']
             # The default covers string, url types
             claim.target = Claim.TARGET_CONVERTER.get(
-                claim.type, lambda value, site: value)(value, site)
+                claim.type, lambda value: value)(value)
         if 'rank' in data:  # References/Qualifiers don't have ranks
             claim.rank = data['rank']
         if 'references' in data:
             for source in data['references']:
-                claim.sources.append(cls.referenceFromJSON(site, source))
+                claim.sources.append(cls.referenceFromJSON(source))
         if 'qualifiers' in data:
             for prop in data['qualifiers-order']:
                 claim.qualifiers[prop] = [
-                    cls.qualifierFromJSON(site, qualifier)
+                    cls.qualifierFromJSON(qualifier)
                     for qualifier in data['qualifiers'][prop]]
         return claim
 
     @classmethod
-    def referenceFromJSON(cls, site, data):
+    def referenceFromJSON(cls, data):
         """
         Create a dict of claims from reference JSON returned in the API call.
 
@@ -122,7 +120,7 @@ class Claim(Property):
 
         for prop in prop_list:
             for claimsnak in data['snaks'][prop]:
-                claim = cls.fromJSON(site, {'mainsnak': claimsnak,
+                claim = cls.fromJSON({'mainsnak': claimsnak,
                                             'hash': data['hash']})
                 if claim.getID() not in source:
                     source[claim.getID()] = []
@@ -130,7 +128,7 @@ class Claim(Property):
         return source
 
     @classmethod
-    def qualifierFromJSON(cls, site, data):
+    def qualifierFromJSON(cls, data):
         """
         Create a Claim for a qualifier from JSON.
 
@@ -140,7 +138,7 @@ class Claim(Property):
 
         @return: Claim
         """
-        return cls.fromJSON(site, {'mainsnak': data,
+        return cls.fromJSON({'mainsnak': data,
                                    'hash': data['hash']})
 
     def toJSON(self):
