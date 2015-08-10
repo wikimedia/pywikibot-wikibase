@@ -1,0 +1,9 @@
+*.pyc
+*.pyo
+*.*~
+/.tox
+/*.egg
+*pycache*
+build
+dist
+docs/_build/
