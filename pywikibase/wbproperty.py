@@ -18,7 +18,8 @@ from pywikibase.itempage import ItemPage
 try:
     unicode = unicode
 except NameError:
-    basestring = (str,bytes)
+    basestring = (str, bytes)
+
 
 class Property():
 

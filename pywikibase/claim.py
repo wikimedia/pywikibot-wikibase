@@ -15,6 +15,7 @@ from pywikibase import Coordinate
 from pywikibase import WbTime
 from pywikibase import WbQuantity
 from pywikibase import Property
+import pywikibase.itemPage
 
 
 class Claim(Property):
@@ -27,7 +28,7 @@ class Claim(Property):
 
     TARGET_CONVERTER = {
         'wikibase-item': lambda value:
-            ItemPage('Q' + str(value['numeric-id'])),
+            pywikibase.itemPage.ItemPage('Q' + str(value['numeric-id'])),
         'globe-coordinate': Coordinate.fromWikibase,
         'time': lambda value: WbTime.fromWikibase(value),
         'quantity': lambda value: WbQuantity.fromWikibase(value),
@@ -71,6 +72,9 @@ class Claim(Property):
 
         @return: Claim
         """
+        datatype = data['mainsnak'].get('datatype', None)
+        if not datatype:
+            datatype = cls._format_datatype(datatype)
         claim = cls(data['mainsnak']['property'],
                     datatype=data['mainsnak'].get('datatype', None))
         if 'id' in data:
@@ -121,7 +125,7 @@ class Claim(Property):
         for prop in prop_list:
             for claimsnak in data['snaks'][prop]:
                 claim = cls.fromJSON({'mainsnak': claimsnak,
-                                            'hash': data['hash']})
+                                      'hash': data['hash']})
                 if claim.getID() not in source:
                     source[claim.getID()] = []
                 source[claim.getID()].append(claim)
@@ -139,7 +143,7 @@ class Claim(Property):
         @return: Claim
         """
         return cls.fromJSON({'mainsnak': data,
-                                   'hash': data['hash']})
+                             'hash': data['hash']})
 
     def toJSON(self):
         """
@@ -337,7 +341,7 @@ class Claim(Property):
             false otherwise
         @rtype: bool
         """
-        if (isinstance(self.target, ItemPage) and
+        if (isinstance(self.target, pywikibase.itemPage.ItemPage) and
                 isinstance(value, basestring) and
                 self.target.id == value):
             return True
@@ -419,3 +423,11 @@ class Claim(Property):
         return {'value': self._formatValue(),
                 'type': self.value_types.get(self.type, self.type)
                 }
+
+    @staticmethod
+    def _format_datatype(datatype):
+        if datatype == 'wikibase-entityid':
+            return 'wikibase-item'
+        if datatype == 'globecoordinate':
+            return 'globe-coordinate'
+        return datatype

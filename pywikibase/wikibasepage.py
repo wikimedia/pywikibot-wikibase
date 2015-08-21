@@ -12,6 +12,7 @@ from __future__ import unicode_literals
 from collections import defaultdict, Counter
 
 import json
+import pywikibase.claim
 
 
 class WikibasePage(object):
@@ -61,7 +62,7 @@ class WikibasePage(object):
                     'descriptions'][lang]['value']
 
         # claims
-        from pywikibase.claim import Claim # noqa
+        Claim = pywikibase.claim.Claim
         self.claims = {}
         if 'claims' in self._content:
             for pid in self._content['claims']:

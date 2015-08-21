@@ -75,8 +75,6 @@ class WbTime(object):
         self.after = after
         self.before = before
         self.timezone = timezone
-        if calendarmodel is None:
-            calendarmodel = site.calendarmodel()
         self.calendarmodel = calendarmodel
 
         # if precision is given it overwrites the autodetection above
@@ -91,7 +89,7 @@ class WbTime(object):
 
     @classmethod
     def fromTimestr(cls, datetimestr, precision=14, before=0, after=0,
-                    timezone=0, calendarmodel=None, site=None):
+                    timezone=0, calendarmodel=None):
         match = re.match(r'([-+]?\d+)-(\d+)-(\d+)T(\d+):(\d+):(\d+)Z',
                          datetimestr)
         if not match:
@@ -99,7 +97,7 @@ class WbTime(object):
         t = match.groups()
         return cls(long(t[0]), int(t[1]), int(t[2]),
                    int(t[3]), int(t[4]), int(t[5]),
-                   precision, before, after, timezone, calendarmodel, site)
+                   precision, before, after, timezone, calendarmodel)
 
     def toTimestr(self):
         """
