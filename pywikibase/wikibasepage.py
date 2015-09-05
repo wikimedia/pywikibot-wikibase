@@ -23,6 +23,10 @@ class WikibasePage(object):
     There should be no need to instantiate this directly.
     """
 
+    def __eq__(self, other):
+        return other.id == self.id
+
+
     def get(self, content=None):
         """
         Fetch all page data, and cache it.

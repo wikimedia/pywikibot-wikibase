@@ -145,6 +145,10 @@ class Claim(Property):
         return cls.fromJSON({'mainsnak': data,
                              'hash': data['hash']})
 
+    def __eq__(self, other):
+        return other.toJSON() == self.toJSON()
+
+
     def toJSON(self):
         """
         Create dict suitable for the MediaWiki API.

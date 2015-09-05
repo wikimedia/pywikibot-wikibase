@@ -40,6 +40,7 @@ class ItemPage(WikibasePage):
             raise RuntimeError(
                 u"'%s' is not a valid item page title"
                 % title)
+        self.id = title
 
     def get(self, *args, **kwargs):
         """
