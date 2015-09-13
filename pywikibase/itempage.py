@@ -107,3 +107,5 @@ class ItemPage(WikibasePage):
         for claim in claims:
             if claim in self.claims.get(claim.getID(), []):
                 self.claims.get(claim.getID(), []).remove(claim)
+            if claim.getID() in self.claims and not self.claims[claim.getID()]:
+                self.claims.pop(claim.getID())

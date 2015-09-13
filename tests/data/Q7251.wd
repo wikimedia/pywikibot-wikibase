@@ -1,0 +1,3829 @@
+{
+    "entities": {
+        "Q7251": {
+            "pageid": 8455,
+            "ns": 0,
+            "title": "Q7251",
+            "lastrevid": 247379361,
+            "modified": "2015-09-03T06:08:44Z",
+            "type": "item",
+            "id": "Q7251",
+            "labels": {
+                "fr": {
+                    "language": "fr",
+                    "value": "Alan Turing"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "Alan Turing"
+                },
+                "pl": {
+                    "language": "pl",
+                    "value": "Alan Turing"
+                },
+                "it": {
+                    "language": "it",
+                    "value": "Alan Turing"
+                },
+                "ilo": {
+                    "language": "ilo",
+                    "value": "Alan Turing"
+                },
+                "jbo": {
+                    "language": "jbo",
+                    "value": ".alan turin"
+                },
+                "be-tarask": {
+                    "language": "be-tarask",
+                    "value": "\u042d\u043b\u0430\u043d \u0422\u2019\u044e\u0440\u044b\u043d\u0433"
+                },
+                "en-ca": {
+                    "language": "en-ca",
+                    "value": "Alan Turing"
+                },
+                "en-gb": {
+                    "language": "en-gb",
+                    "value": "Alan Turing"
+                },
+                "af": {
+                    "language": "af",
+                    "value": "Alan Turing"
+                },
+                "an": {
+                    "language": "an",
+                    "value": "Alan Turing"
+                },
+                "ar": {
+                    "language": "ar",
+                    "value": "\u0622\u0644\u0627\u0646 \u062a\u0648\u0631\u0646\u062c"
+                },
+                "arz": {
+                    "language": "arz",
+                    "value": "\u0627\u0644\u0627\u0646 \u062a\u0648\u0631\u064a\u0646\u062c"
+                },
+                "as": {
+                    "language": "as",
+                    "value": "\u098f\u09b2\u09be\u09a8 \u099f\u09cd\u09af\u09c1\u09f0\u09bf\u0982"
+                },
+                "ast": {
+                    "language": "ast",
+                    "value": "Alan Turing"
+                },
+                "az": {
+                    "language": "az",
+                    "value": "Alan T\u00fcrinq"
+                },
+                "be": {
+                    "language": "be",
+                    "value": "\u0410\u043b\u0430\u043d \u041c\u0430\u0442\u044b\u0441\u0430\u043d \u0426\u044c\u044e\u0440\u044b\u043d\u0433"
+                },
+                "bg": {
+                    "language": "bg",
+                    "value": "\u0410\u043b\u044a\u043d \u0422\u044e\u0440\u0438\u043d\u0433"
+                },
+                "bn": {
+                    "language": "bn",
+                    "value": "\u0985\u09cd\u09af\u09be\u09b2\u09be\u09a8 \u099f\u09c1\u09b0\u09bf\u0982"
+                },
+                "br": {
+                    "language": "br",
+                    "value": "Alan Turing"
+                },
+                "bs": {
+                    "language": "bs",
+                    "value": "Alan Turing"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "Alan Turing"
+                },
+                "ckb": {
+                    "language": "ckb",
+                    "value": "\u0626\u0627\u0644\u0627\u0646 \u062a\u06cc\u0648\u0631\u06cc\u0646\u06af"
+                },
+                "cs": {
+                    "language": "cs",
+                    "value": "Alan Turing"
+                },
+                "cy": {
+                    "language": "cy",
+                    "value": "Alan Turing"
+                },
+                "da": {
+                    "language": "da",
+                    "value": "Alan Turing"
+                },
+                "de": {
+                    "language": "de",
+                    "value": "Alan Turing"
+                },
+                "el": {
+                    "language": "el",
+                    "value": "\u0386\u03bb\u03b1\u03bd \u03a4\u03bf\u03cd\u03c1\u03b9\u03bd\u03b3\u03ba"
+                },
+                "eo": {
+                    "language": "eo",
+                    "value": "Alan TURING"
+                },
+                "es": {
+                    "language": "es",
+                    "value": "Alan Turing"
+                },
+                "et": {
+                    "language": "et",
+                    "value": "Alan Turing"
+                },
+                "eu": {
+                    "language": "eu",
+                    "value": "Alan Turing"
+                },
+                "fa": {
+                    "language": "fa",
+                    "value": "\u0622\u0644\u0646 \u062a\u0648\u0631\u06cc\u0646\u06af"
+                },
+                "fi": {
+                    "language": "fi",
+                    "value": "Alan Turing"
+                },
+                "fy": {
+                    "language": "fy",
+                    "value": "Alan Turing"
+                },
+                "ga": {
+                    "language": "ga",
+                    "value": "Alan Turing"
+                },
+                "gan": {
+                    "language": "gan",
+                    "value": "\u5716\u9748"
+                },
+                "gd": {
+                    "language": "gd",
+                    "value": "Alan Turing"
+                },
+                "gl": {
+                    "language": "gl",
+                    "value": "Alan Turing"
+                },
+                "gu": {
+                    "language": "gu",
+                    "value": "\u0a8d\u0ab2\u0aa8 \u0a9f\u0acd\u0aaf\u0ac1\u0ab0\u0abf\u0a82\u0a97"
+                },
+                "he": {
+                    "language": "he",
+                    "value": "\u05d0\u05dc\u05df \u05d8\u05d9\u05d5\u05e8\u05d9\u05e0\u05d2"
+                },
+                "hi": {
+                    "language": "hi",
+                    "value": "\u090f\u0932\u0947\u0928 \u091f\u094d\u092f\u0942\u0930\u093f\u0902\u0917"
+                },
+                "hif": {
+                    "language": "hif",
+                    "value": "Alan Turing"
+                },
+                "hr": {
+                    "language": "hr",
+                    "value": "Alan Turing"
+                },
+                "ht": {
+                    "language": "ht",
+                    "value": "Alan Turing"
+                },
+                "hu": {
+                    "language": "hu",
+                    "value": "Alan Turing"
+                },
+                "hy": {
+                    "language": "hy",
+                    "value": "\u0531\u056c\u0561\u0576 \u0539\u0575\u0578\u0582\u0580\u056b\u0576\u0563"
+                },
+                "id": {
+                    "language": "id",
+                    "value": "Alan Turing"
+                },
+                "io": {
+                    "language": "io",
+                    "value": "Alan Turing"
+                },
+                "is": {
+                    "language": "is",
+                    "value": "Alan Turing"
+                },
+                "ja": {
+                    "language": "ja",
+                    "value": "\u30a2\u30e9\u30f3\u30fb\u30c1\u30e5\u30fc\u30ea\u30f3\u30b0"
+                },
+                "jv": {
+                    "language": "jv",
+                    "value": "Alan Turing"
+                },
+                "ka": {
+                    "language": "ka",
+                    "value": "\u10d0\u10da\u10d0\u10dc \u10e2\u10d8\u10e3\u10e0\u10d8\u10dc\u10d2\u10d8"
+                },
+                "kn": {
+                    "language": "kn",
+                    "value": "\u0c85\u0cb2\u0cc6\u0ca8\u0ccd \u0c9f\u0ccd\u0caf\u0cc2\u0cb0\u0cbf\u0c82\u0c97\u0ccd"
+                },
+                "ko": {
+                    "language": "ko",
+                    "value": "\uc568\ub7f0 \ud29c\ub9c1"
+                },
+                "ku": {
+                    "language": "ku",
+                    "value": "Alan Turing"
+                },
+                "la": {
+                    "language": "la",
+                    "value": "Alanus Mathison Turing"
+                },
+                "lb": {
+                    "language": "lb",
+                    "value": "Alan M. Turing"
+                },
+                "li": {
+                    "language": "li",
+                    "value": "Alan Turing"
+                },
+                "lij": {
+                    "language": "lij",
+                    "value": "Alan Turing"
+                },
+                "lmo": {
+                    "language": "lmo",
+                    "value": "Alan Turing"
+                },
+                "lt": {
+                    "language": "lt",
+                    "value": "Alan Turing"
+                },
+                "lv": {
+                    "language": "lv",
+                    "value": "Alans Tj\u016brings"
+                },
+                "mk": {
+                    "language": "mk",
+                    "value": "\u0410\u043b\u0430\u043d \u0422\u0458\u0443\u0440\u0438\u043d\u0433"
+                },
+                "ml": {
+                    "language": "ml",
+                    "value": "\u0d05\u0d32\u0d7b \u0d1f\u0d4d\u0d2f\u0d42\u0d31\u0d3f\u0d02\u0d17\u0d4d"
+                },
+                "mn": {
+                    "language": "mn",
+                    "value": "\u0410\u043b\u0430\u043d \u041c\u0430\u0442\u0438\u0441\u043e\u043d \u0422\u044e\u0440\u0438\u043d\u0433"
+                },
+                "mr": {
+                    "language": "mr",
+                    "value": "\u0972\u0932\u0928 \u091f\u094d\u092f\u0941\u0930\u093f\u0902\u0917"
+                },
+                "ms": {
+                    "language": "ms",
+                    "value": "Alan Turing"
+                },
+                "mt": {
+                    "language": "mt",
+                    "value": "Alan Turing"
+                },
+                "mwl": {
+                    "language": "mwl",
+                    "value": "Alan Turing"
+                },
+                "nl": {
+                    "language": "nl",
+                    "value": "Alan Turing"
+                },
+                "nn": {
+                    "language": "nn",
+                    "value": "Alan Turing"
+                },
+                "oc": {
+                    "language": "oc",
+                    "value": "Alan Turing"
+                },
+                "or": {
+                    "language": "or",
+                    "value": "\u0b06\u0b32\u0b3e\u0b28 \u0b1f\u0b4d\u0b5f\u0b41\u0b30\u0b3f\u0b19\u0b4d\u0b17"
+                },
+                "pam": {
+                    "language": "pam",
+                    "value": "Alan Turing"
+                },
+                "pms": {
+                    "language": "pms",
+                    "value": "Alan Turing"
+                },
+                "pnb": {
+                    "language": "pnb",
+                    "value": "\u0627\u0644\u0627\u0646 \u0679\u0648\u0631\u0646\u06af"
+                },
+                "pt": {
+                    "language": "pt",
+                    "value": "Alan Turing"
+                },
+                "pt-br": {
+                    "language": "pt-br",
+                    "value": "Alan Turing"
+                },
+                "ro": {
+                    "language": "ro",
+                    "value": "Alan Turing"
+                },
+                "ru": {
+                    "language": "ru",
+                    "value": "\u0410\u043b\u0430\u043d \u0422\u044c\u044e\u0440\u0438\u043d\u0433"
+                },
+                "rue": {
+                    "language": "rue",
+                    "value": "\u0410\u043b\u0430\u043d \u0422\u044e\u0440\u0456\u043d\u0491"
+                },
+                "sa": {
+                    "language": "sa",
+                    "value": "\u090f\u0932\u0947\u0928 \u091f\u094d\u092f\u0942\u0930\u093f\u0902\u0917"
+                },
+                "sah": {
+                    "language": "sah",
+                    "value": "\u0410\u043b\u0430\u043d \u041c\u0430\u0442\u0438\u0441\u043e\u043d \u0422\u044c\u044e\u0440\u0438\u043d\u0433"
+                },
+                "scn": {
+                    "language": "scn",
+                    "value": "Alan Turing"
+                },
+                "sh": {
+                    "language": "sh",
+                    "value": "Alan Turing"
+                },
+                "sk": {
+                    "language": "sk",
+                    "value": "Alan Mathison Turing"
+                },
+                "sl": {
+                    "language": "sl",
+                    "value": "Alan Turing"
+                },
+                "sq": {
+                    "language": "sq",
+                    "value": "Alan Turing"
+                },
+                "sr": {
+                    "language": "sr",
+                    "value": "\u0410\u043b\u0430\u043d \u0422\u0458\u0443\u0440\u0438\u043d\u0433"
+                },
+                "sv": {
+                    "language": "sv",
+                    "value": "Alan Turing"
+                },
+                "sw": {
+                    "language": "sw",
+                    "value": "Alan Turing"
+                },
+                "ta": {
+                    "language": "ta",
+                    "value": "\u0b85\u0bb2\u0ba9\u0bcd \u0b9f\u0bc2\u0bb0\u0bbf\u0b99\u0bcd"
+                },
+                "te": {
+                    "language": "te",
+                    "value": "\u0c05\u0c32\u0c3e\u0c28\u0c4d \u0c1f\u0c4d\u0c2f\u0c42\u0c30\u0c3f\u0c02\u0c17\u0c4d\u200c"
+                },
+                "tg": {
+                    "language": "tg",
+                    "value": "\u0410\u043b\u0430\u043d \u0422\u044e\u0440\u0438\u043d\u0433"
+                },
+                "th": {
+                    "language": "th",
+                    "value": "\u0e41\u0e2d\u0e25\u0e31\u0e19 \u0e17\u0e31\u0e27\u0e23\u0e34\u0e07"
+                },
+                "tl": {
+                    "language": "tl",
+                    "value": "Alan Turing"
+                },
+                "tr": {
+                    "language": "tr",
+                    "value": "Alan Turing"
+                },
+                "uk": {
+                    "language": "uk",
+                    "value": "\u0410\u043b\u0430\u043d \u0422\u044e\u0440\u0456\u043d\u0433"
+                },
+                "ur": {
+                    "language": "ur",
+                    "value": "\u0627\u06cc\u0644\u0646 \u062a\u0648\u0631\u0646\u06af"
+                },
+                "vi": {
+                    "language": "vi",
+                    "value": "Alan Turing"
+                },
+                "vo": {
+                    "language": "vo",
+                    "value": "Alan Turing"
+                },
+                "war": {
+                    "language": "war",
+                    "value": "Alan Turing"
+                },
+                "yi": {
+                    "language": "yi",
+                    "value": "\u05e2\u05dc\u05df \u05d8\u05d9\u05d5\u05e8\u05d9\u05e0\u05d2"
+                },
+                "yo": {
+                    "language": "yo",
+                    "value": "Alan Turing"
+                },
+                "zh": {
+                    "language": "zh",
+                    "value": "\u827e\u4f26\u00b7\u56fe\u7075"
+                },
+                "yue": {
+                    "language": "yue",
+                    "value": "\u5716\u9748"
+                },
+                "nb": {
+                    "language": "nb",
+                    "value": "Alan Turing"
+                },
+                "zh-hans": {
+                    "language": "zh-hans",
+                    "value": "\u827e\u4f26\u00b7\u56fe\u7075"
+                },
+                "ba": {
+                    "language": "ba",
+                    "value": "\u0410\u043b\u0430\u043d \u0422\u044c\u044e\u0440\u0438\u043d\u0433"
+                },
+                "ce": {
+                    "language": "ce",
+                    "value": "\u0422\u044c\u044e\u0440\u0438\u043d\u0433, \u0410\u043b\u0430\u043d"
+                },
+                "co": {
+                    "language": "co",
+                    "value": "Alanu Turing"
+                },
+                "de-ch": {
+                    "language": "de-ch",
+                    "value": "Alan Turing"
+                },
+                "tt": {
+                    "language": "tt",
+                    "value": "Alan Tyuring"
+                },
+                "sgs": {
+                    "language": "sgs",
+                    "value": "Alans Tior\u0117ngs"
+                },
+                "nan": {
+                    "language": "nan",
+                    "value": "Alan Turing"
+                },
+                "gsw": {
+                    "language": "gsw",
+                    "value": "Alan Turing"
+                },
+                "uz": {
+                    "language": "uz",
+                    "value": "Tyuring"
+                },
+                "new": {
+                    "language": "new",
+                    "value": "\u090f\u0932\u0947\u0928 \u0924\u094d\u092f\u0941\u0930\u093f\u0919\u094d\u0917"
+                },
+                "sco": {
+                    "language": "sco",
+                    "value": "Alan Turing"
+                },
+                "kk": {
+                    "language": "kk",
+                    "value": "\u0410\u043b\u0430\u043d \u0422\u044c\u044e\u0440\u0438\u043d\u0433"
+                },
+                "zh-cn": {
+                    "language": "zh-cn",
+                    "value": "\u827e\u4f26\u00b7\u56fe\u7075"
+                },
+                "mg": {
+                    "language": "mg",
+                    "value": "Alan Turing"
+                },
+                "fur": {
+                    "language": "fur",
+                    "value": "Alan Turing"
+                },
+                "pa": {
+                    "language": "pa",
+                    "value": "\u0a05\u0a32\u0a3e\u0a28 \u0a1f\u0a42\u0a30\u0a3f\u0a70\u0a17"
+                },
+                "fo": {
+                    "language": "fo",
+                    "value": "Alan Turing"
+                }
+            },
+            "descriptions": {
+                "fr": {
+                    "language": "fr",
+                    "value": "math\u00e9maticien britannique"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "British mathematician, logician, cryptanalyst, and computer scientist"
+                },
+                "it": {
+                    "language": "it",
+                    "value": "matematico, logico e crittografo britannico"
+                },
+                "ilo": {
+                    "language": "ilo",
+                    "value": "Britaniko a matematiko, lohiko, kriptoanalista, ken sientista ti kompiuter"
+                },
+                "es": {
+                    "language": "es",
+                    "value": "matem\u00e1tico, fil\u00f3sofo y cript\u00f3grafo brit\u00e1nico"
+                },
+                "de": {
+                    "language": "de",
+                    "value": "britischer Logiker, Mathematiker und Kryptoanalytiker"
+                },
+                "fa": {
+                    "language": "fa",
+                    "value": "\u062f\u0627\u0646\u0634\u0645\u0646\u062f \u06a9\u0627\u0645\u067e\u06cc\u062a\u0648\u0631\u060c \u0631\u0645\u0632\u0634\u06a9\u0646\u060c \u0645\u0646\u0637\u0642\u200c\u062f\u0627\u0646 \u0648 \u0631\u06cc\u0627\u0636\u06cc\u200c\u062f\u0627\u0646 \u0628\u0631\u06cc\u062a\u0627\u0646\u06cc\u0627\u06cc\u06cc"
+                },
+                "pl": {
+                    "language": "pl",
+                    "value": "angielski matematyk"
+                },
+                "sk": {
+                    "language": "sk",
+                    "value": "britsk\u00fd matematik, logik, kryptograf a vojnov\u00fd hrdina"
+                },
+                "as": {
+                    "language": "as",
+                    "value": "Computer scientist, mathematician, and cryptographer"
+                },
+                "sv": {
+                    "language": "sv",
+                    "value": "brittisk datavetare, matematiker och ingenj\u00f6r"
+                },
+                "nb": {
+                    "language": "nb",
+                    "value": "britisk informatiker, matematiker og ingeni\u00f8r"
+                },
+                "nn": {
+                    "language": "nn",
+                    "value": "britisk informatikar, matematikar og ingeni\u00f8r"
+                },
+                "da": {
+                    "language": "da",
+                    "value": "britisk informatiker, matematiker og ingeni\u00f8r"
+                },
+                "ru": {
+                    "language": "ru",
+                    "value": "\u0430\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439 \u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a, \u043b\u043e\u0433\u0438\u043a, \u043a\u0440\u0438\u043f\u0442\u043e\u0433\u0440\u0430\u0444"
+                },
+                "nl": {
+                    "language": "nl",
+                    "value": "Brits wiskundige"
+                },
+                "gl": {
+                    "language": "gl",
+                    "value": "matem\u00e1tico, fil\u00f3sofo e cript\u00f3grafo brit\u00e1nico"
+                },
+                "zh": {
+                    "language": "zh",
+                    "value": "\u82f1\u56fd\u6570\u5b66\u5bb6\uff0c\u903b\u8f91\u5b66\u5bb6\uff0c\u5bc6\u7801\u5b66\u5bb6\u548c\u8ba1\u7b97\u673a\u79d1\u5b66\u5bb6"
+                },
+                "zh-cn": {
+                    "language": "zh-cn",
+                    "value": "\u82f1\u56fd\u6570\u5b66\u5bb6\uff0c\u903b\u8f91\u5b66\u5bb6\uff0c\u5bc6\u7801\u5b66\u5bb6\u548c\u8ba1\u7b97\u673a\u79d1\u5b66\u5bb6"
+                },
+                "zh-hans": {
+                    "language": "zh-hans",
+                    "value": "\u82f1\u56fd\u6570\u5b66\u5bb6\uff0c\u903b\u8f91\u5b66\u5bb6\uff0c\u5bc6\u7801\u5b66\u5bb6\u548c\u8ba1\u7b97\u673a\u79d1\u5b66\u5bb6"
+                },
+                "pam": {
+                    "language": "pam",
+                    "value": "Computer scientist, mathematician, and cryptographer"
+                },
+                "ko": {
+                    "language": "ko",
+                    "value": "\uc601\uad6d\uc758 \uc218\ud559\uc790, \ub17c\ub9ac\ud559\uc790, \uc554\ud638\ud574\ub3c5\ud559\uc790, \ucef4\ud4e8\ud130 \uacfc\ud559\uc790"
+                }
+            },
+            "aliases": {
+                "fr": [
+                    {
+                        "language": "fr",
+                        "value": "Alan Mathison Turing"
+                    }
+                ],
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "Alan Mathison Turing"
+                    }
+                ],
+                "it": [
+                    {
+                        "language": "it",
+                        "value": "Alan Mathison Turing"
+                    }
+                ],
+                "jbo": [
+                    {
+                        "language": "jbo",
+                        "value": "alan turin"
+                    }
+                ],
+                "be-tarask": [
+                    {
+                        "language": "be-tarask",
+                        "value": "\u042d\u043b\u0430\u043d \u0422'\u044e\u0440\u044b\u043d\u0433"
+                    },
+                    {
+                        "language": "be-tarask",
+                        "value": "\u0410\u043b\u0430\u043d \u0426\u044e\u0440\u044b\u043d\u0433"
+                    },
+                    {
+                        "language": "be-tarask",
+                        "value": "\u0422'\u044e\u0440\u044b\u043d\u0433"
+                    }
+                ],
+                "de": [
+                    {
+                        "language": "de",
+                        "value": "Alan Mathison Turing"
+                    }
+                ],
+                "ja": [
+                    {
+                        "language": "ja",
+                        "value": "\u30a2\u30e9\u30f3\u30fb\u30c6\u30e5\u30fc\u30ea\u30f3\u30b0"
+                    }
+                ],
+                "ru": [
+                    {
+                        "language": "ru",
+                        "value": "\u0422\u044c\u044e\u0440\u0438\u043d\u0433, \u0410\u043b\u0430\u043d"
+                    }
+                ],
+                "ko": [
+                    {
+                        "language": "ko",
+                        "value": "\uc568\ub7f0 \ub9e4\ud2f0\uc2a8 \ud29c\ub9c1"
+                    }
+                ]
+            },
+            "claims": {
+                "P91": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P91",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 6636
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "q7251$152AF535-A578-403A-8E4E-FA8BA1AA3AFB",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d2cf85da9402f6bae354a136d4216675db0adcda",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 20895922
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P106": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P106",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 82594
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "q7251$3B5A69F7-2ECD-4A11-BC54-049CA7857F68",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P106",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 170790
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "q7251$AEC3B7B4-52FA-489A-9E17-14AD967FFBE8",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P106",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 81096
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$B82607CE-E166-430B-AA09-A8BA20FA57E1",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P106",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 4964182
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$B4429977-7DF3-4725-AB70-47A94402B31C",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "527e37d09f6b28f81ecbcbfa85dc4b79d783b297",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 48952
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P69": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P69",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 924289
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P580": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P580",
+                                    "hash": "0874b1f09bc98126ae268f74fb74efb9991fe844",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+1931-00-00T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 9,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P580"
+                        ],
+                        "id": "q7251$184851D8-CEB6-436F-AF57-5A462E7DB55C",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d2cf85da9402f6bae354a136d4216675db0adcda",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 20895922
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P69",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 21578
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "q7251$60019BFD-C7F6-4CD1-8545-91D3383AA8BF",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P69",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 2278254
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P580": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P580",
+                                    "hash": "b8918b6d190642a3497a07ae330a3772b20d7a4c",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+1926-00-00T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 9,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P580"
+                        ],
+                        "id": "Q7251$CCF34926-7F14-46C4-B4A2-BF2F4944A346",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d2cf85da9402f6bae354a136d4216675db0adcda",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 20895922
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P101": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P101",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 897511
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "q7251$F9C4AF37-1832-4F3A-9BF5-997B8D7E6C9D",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P101",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 21198
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "q7251$D0E4FA6F-3517-4E9F-85E7-7CFF5202C9FC",
+                        "rank": "normal"
+                    }
+                ],
+                "P21": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P21",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 6581097
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "q7251$57ACDB6B-A5BB-4BC0-99C0-68624C69839E",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "a51d6594fee36c7452eaed2db35a4833613a7078",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 54919
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            },
+                            {
+                                "hash": "298b51a5d4075225a5c70e053aefbf566adc9c26",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 36578
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2014-04-09T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P19": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P19",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 122744
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "q7251$BF793CC4-377D-4FC6-9B3A-BEE1641EE241",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "7eb64cf9621d34c54fd4bd040ed4b61a88c4a1a0",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            },
+                            {
+                                "hash": "bc26902c31746adb7d189c3f5fdb6c015a73c1f4",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "http://www.telegraph.co.uk/technology/news/9314910/Britain-still-owes-Alan-Turing-a-debt.html",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P19",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 20895942
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$d608d2c8-4e9b-4ac9-25f2-749985a80fea",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d2cf85da9402f6bae354a136d4216675db0adcda",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 20895922
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P20": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P20",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 2011497
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "q7251$2084C480-4906-44BA-91E9-D35409E7ED37",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d2cf85da9402f6bae354a136d4216675db0adcda",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 20895922
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P184": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P184",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 92741
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "q7251$95CEF7A4-D823-47D9-9EBE-AF1529E8A812",
+                        "rank": "normal"
+                    }
+                ],
+                "P185": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P185",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 249984
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "q7251$FC2B3383-A43A-40C5-BF19-0F98E4E372F1",
+                        "rank": "normal"
+                    }
+                ],
+                "P214": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P214",
+                            "datavalue": {
+                                "value": "41887917",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "q7251$6B90D5E8-74D4-4040-AF72-2B925AA0621B",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "004ec6fbee857649acdbdbad4f97b2c8571df97b",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 48183
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            },
+                            {
+                                "hash": "7eb64cf9621d34c54fd4bd040ed4b61a88c4a1a0",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            },
+                            {
+                                "hash": "f70116eac7f49194478b3025330bfd8dcffa3c69",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 8447
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P227": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P227",
+                            "datavalue": {
+                                "value": "118802976",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "q7251$9AAB8B86-39F4-488C-9273-651C16ED03EE",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "004ec6fbee857649acdbdbad4f97b2c8571df97b",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 48183
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            },
+                            {
+                                "hash": "9f454a27f5efb737e03ba11bd3e85a1ea1c08a7d",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 1419226
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P244": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P244",
+                            "datavalue": {
+                                "value": "n83171546",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "q7251$D5DDA314-8454-484E-AF5B-66A8CC4993A2",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "004ec6fbee857649acdbdbad4f97b2c8571df97b",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 48183
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            },
+                            {
+                                "hash": "7eb64cf9621d34c54fd4bd040ed4b61a88c4a1a0",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P349": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P349",
+                            "datavalue": {
+                                "value": "00621580",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "q7251$4C48DA24-B2BF-4104-97F4-A48B91B6DBBD",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "004ec6fbee857649acdbdbad4f97b2c8571df97b",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 48183
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P373": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P373",
+                            "datavalue": {
+                                "value": "Alan Turing",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "q7251$882E55C9-AD69-4282-9921-1C0DF831281E",
+                        "rank": "normal"
+                    }
+                ],
+                "P213": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P213",
+                            "datavalue": {
+                                "value": "0000 0001 1058 9902",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "q7251$82CAF994-3A36-44D9-BC45-B7E8D419BDCC",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "500bf0768a4645f1e00ad451f904d3a010fa43ae",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 423048
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P463": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P463",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 123885
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "q7251$DB4F069D-3A9E-4E44-865F-8A4DAE41A2BE",
+                        "rank": "normal"
+                    }
+                ],
+                "P18": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P18",
+                            "datavalue": {
+                                "value": "Alan Turing Aged 16.jpg",
+                                "type": "string"
+                            },
+                            "datatype": "commonsMedia"
+                        },
+                        "type": "statement",
+                        "id": "q7251$8F416BD2-6F46-423D-B33E-C9086DAD5974",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "50f57a3dbac4708ce4ae4a827c0afac7fcdb4a5c",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 11920
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P269": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P269",
+                            "datavalue": {
+                                "value": "030691621",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "q7251$898CF096-B53D-4965-B5C3-36A8410F80FF",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "f70116eac7f49194478b3025330bfd8dcffa3c69",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 8447
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P268": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P268",
+                            "datavalue": {
+                                "value": "12205670t",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "q7251$F8C335AB-E6DD-45C6-AF18-F818725C5E37",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "f70116eac7f49194478b3025330bfd8dcffa3c69",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 8447
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P535": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P535",
+                            "datavalue": {
+                                "value": "12651680",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "q7251$8916C5BF-71A3-46B1-B64B-A87C6F016F92",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "7eb64cf9621d34c54fd4bd040ed4b61a88c4a1a0",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P570": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P570",
+                            "datavalue": {
+                                "value": {
+                                    "time": "+1954-06-07T00:00:00Z",
+                                    "timezone": 0,
+                                    "before": 0,
+                                    "after": 0,
+                                    "precision": 11,
+                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                },
+                                "type": "time"
+                            },
+                            "datatype": "time"
+                        },
+                        "type": "statement",
+                        "id": "q7251$e7e4cd4c-4cd4-8332-fd94-7b7377887596",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d6e3ab4045fb3f3feea77895bc6b27e663fc878a",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 206855
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            },
+                            {
+                                "hash": "d2cf85da9402f6bae354a136d4216675db0adcda",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 20895922
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P569": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P569",
+                            "datavalue": {
+                                "value": {
+                                    "time": "+1912-06-23T00:00:00Z",
+                                    "timezone": 0,
+                                    "before": 0,
+                                    "after": 0,
+                                    "precision": 11,
+                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                },
+                                "type": "time"
+                            },
+                            "datatype": "time"
+                        },
+                        "type": "statement",
+                        "id": "q7251$C2006BC3-A3AD-43F5-AE20-E0923A18AEEF",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "7eb64cf9621d34c54fd4bd040ed4b61a88c4a1a0",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            },
+                            {
+                                "hash": "d2cf85da9402f6bae354a136d4216675db0adcda",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 20895922
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P27": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P27",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 145
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "q7251$9EAE20B1-6186-43E5-90AC-F740A43CED52",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "004ec6fbee857649acdbdbad4f97b2c8571df97b",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 48183
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P691": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P691",
+                            "datavalue": {
+                                "value": "jn19990008646",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "q7251$AD1D0AF2-DD2C-4708-AD56-AD22C47B3FF2",
+                        "rank": "normal"
+                    }
+                ],
+                "P549": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P549",
+                            "datavalue": {
+                                "value": "8014",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "q7251$764446E8-62C9-48C7-8AEA-3BAFF0B5EC0D",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "7eb64cf9621d34c54fd4bd040ed4b61a88c4a1a0",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P910": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P910",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 9384007
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$AF6AB85E-A841-442E-A0EF-50EF4A95CFE2",
+                        "rank": "normal"
+                    }
+                ],
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 5
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$22FE0362-8887-417C-A9AC-81850399468C",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d6e3ab4045fb3f3feea77895bc6b27e663fc878a",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 206855
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            },
+                            {
+                                "hash": "d2cf85da9402f6bae354a136d4216675db0adcda",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 20895922
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P906": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P906",
+                            "datavalue": {
+                                "value": "254262",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$4E082C45-CAD4-4744-8D3C-93262AD978AF",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "baeb59aa4da4514dcf71fea9cb1e9c5794d6b44b",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 877583
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P950": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P950",
+                            "datavalue": {
+                                "value": "XX945020",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$15EA311D-E9B7-478F-8FA4-CD37B6CA13AE",
+                        "rank": "normal"
+                    }
+                ],
+                "P949": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P949",
+                            "datavalue": {
+                                "value": "000133188",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$6F9AFF9B-EC6D-44BC-8118-C59C0BED72B8",
+                        "rank": "normal"
+                    }
+                ],
+                "P1006": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1006",
+                            "datavalue": {
+                                "value": "070580685",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$23755891-74F3-42F1-95CB-92A5F87B7AA9",
+                        "rank": "normal"
+                    }
+                ],
+                "P646": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P646",
+                            "datavalue": {
+                                "value": "/m/0n00",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$FBBEEFEF-1BD3-4625-966C-94C44D375964",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "af38848ab5d9d9325cffd93a5ec656cc6ca889ed",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 15241312
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P577": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P577",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2013-10-28T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P577"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P166": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P166",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 15631401
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$6238E743-DF83-4802-B652-6C2CFAC9B62B",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P166",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 10762848
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$9C81DED7-BF07-4214-90DD-B380F821186E",
+                        "rank": "normal"
+                    }
+                ],
+                "P935": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P935",
+                            "datavalue": {
+                                "value": "Alan Turing",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$CFFE701D-1608-434A-894F-1ACE6BFCB763",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "2f183743080f8e1970847d13a04fde9a796f1476",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 191168
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1273": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1273",
+                            "datavalue": {
+                                "value": "a11455408",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$5FE3222A-C201-4EFC-B451-A5528B675789",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "46272e31c4764de57b3b8cb080a811b9eed1376f",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "https://viaf.org/viaf/41887917/",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1207": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1207",
+                            "datavalue": {
+                                "value": "n98045497",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$43E371F6-CDA6-4F7C-91C3-8442FDEB5458",
+                        "rank": "normal"
+                    }
+                ],
+                "P1415": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1415",
+                            "datavalue": {
+                                "value": "101036578",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$FA63D0F1-D3C8-4303-8700-90C70ABCE7B7",
+                        "rank": "normal"
+                    }
+                ],
+                "P1430": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1430",
+                            "datavalue": {
+                                "value": "368",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$AD5620B5-68DD-4B50-BC61-41753AF8C2A3",
+                        "rank": "normal"
+                    }
+                ],
+                "P1296": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1296",
+                            "datavalue": {
+                                "value": "0067958",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$E8BF8045-8AA1-4E4C-93A6-C29D3BAFB237",
+                        "rank": "normal"
+                    }
+                ],
+                "P1417": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1417",
+                            "datavalue": {
+                                "value": "609739",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$3D9CFCE3-0EAA-4FA8-A0D5-FBE8DE656DA5",
+                        "rank": "normal"
+                    }
+                ],
+                "P1343": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1343",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 17329836
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P854": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P854",
+                                    "hash": "3dbfcd60b0730da8cb7240e581a90685b9e3b8df",
+                                    "datavalue": {
+                                        "value": "http://www.larousse.fr/encyclopedie/personnage/Alan_Mathison_Turing/147690",
+                                        "type": "string"
+                                    },
+                                    "datatype": "url"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P854"
+                        ],
+                        "id": "Q7251$4D7F2655-DA96-46A1-BAD2-0A9CDB66F94B",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1343",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 2627728
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P854": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P854",
+                                    "hash": "372987952e1705406c6d89fb3228946212a4bdf2",
+                                    "datavalue": {
+                                        "value": "http://krugosvet.ru/enc/gumanitarnye_nauki/lingvistika/TYURING_ALAN_MATISON.html",
+                                        "type": "string"
+                                    },
+                                    "datatype": "url"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P854"
+                        ],
+                        "id": "Q7251$51EB9E66-10A8-4F8C-A48C-C952C5250196",
+                        "rank": "normal"
+                    }
+                ],
+                "P108": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P108",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 230899
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P580": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P580",
+                                    "hash": "0a80d28f5afdf97d91e1f3148eaedeb8a2df8133",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+1948-03-00T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 10,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P580"
+                        ],
+                        "id": "Q7251$3219415D-3AD9-40E6-B151-0D77FAE3E923",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d2cf85da9402f6bae354a136d4216675db0adcda",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 20895922
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P108",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 220798
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P580": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P580",
+                                    "hash": "4b0b711a2138e1965bf04de5db1ae0393e721f5b",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+1938-00-00T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 9,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ],
+                            "P582": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P582",
+                                    "hash": "31024d6bccd0d19b1dd04e80a9e4697e8c843495",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+1945-00-00T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 9,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P580",
+                            "P582"
+                        ],
+                        "id": "Q7251$5c5c1b1c-40a4-b9c0-40a6-dfaccd56f273",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d2cf85da9402f6bae354a136d4216675db0adcda",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 20895922
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P140": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P140",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 7066
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$6A3C94B9-19F9-4671-8D14-8C82DE80D454",
+                        "rank": "normal"
+                    }
+                ],
+                "P735": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P735",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 294833
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$BC540505-4344-4CB4-BA51-BE4D4F93CD60",
+                        "rank": "normal"
+                    }
+                ],
+                "P1563": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1563",
+                            "datavalue": {
+                                "value": "Turing",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$C8B1D418-6C9E-4ACA-AE04-3161125097D7",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "3a986a5890d9cca1839ac8eedb28df110ef2a1b2",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 11921
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1196": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1196",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 10737
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$92E4A8F3-B49B-46F8-A508-762A827D7E62",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d2cf85da9402f6bae354a136d4216675db0adcda",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 20895922
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1741": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1741",
+                            "datavalue": {
+                                "value": "226316",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$CA0C8EDD-D9E5-4660-81A8-6DB0051919C5",
+                        "rank": "normal"
+                    }
+                ],
+                "P1816": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1816",
+                            "datavalue": {
+                                "value": "mp18700",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$6F086622-12B0-4A6E-9961-32EF2059EFA1",
+                        "rank": "normal"
+                    }
+                ],
+                "P1819": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1819",
+                            "datavalue": {
+                                "value": "I00586443",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$993DF7A7-2458-46C8-89D1-51A6C109687F",
+                        "rank": "normal"
+                    }
+                ],
+                "P345": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P345",
+                            "datavalue": {
+                                "value": "nm6290133",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$a4932296-40db-11de-652b-3f64b0cd1786",
+                        "rank": "normal"
+                    }
+                ],
+                "P512": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P512",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 230899
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$a53a2988-4cb3-6c02-b62f-b52ba46c1d23",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "f70116eac7f49194478b3025330bfd8dcffa3c69",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 8447
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P512",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 21578
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$08f563fe-40bf-fd53-4031-2e96c6bffe05",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "f70116eac7f49194478b3025330bfd8dcffa3c69",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 8447
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1263": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1263",
+                            "datavalue": {
+                                "value": "952/000023883",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$BDB0351A-6C75-4B36-88B9-6C21B34D99E6",
+                        "rank": "normal"
+                    }
+                ],
+                "P2021": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2021",
+                            "datavalue": {
+                                "value": {
+                                    "amount": "+5",
+                                    "unit": "1",
+                                    "upperBound": "+5",
+                                    "lowerBound": "+5"
+                                },
+                                "type": "quantity"
+                            },
+                            "datatype": "quantity"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$2331E9FA-6331-4F8A-9746-7CAC383AE6B6",
+                        "rank": "normal"
+                    }
+                ],
+                "P22": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P22",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 20895930
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$6414c20c-4261-7bae-5b4d-056e9acf2ee4",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d2cf85da9402f6bae354a136d4216675db0adcda",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 20895922
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P25": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P25",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 20895935
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$899faa29-435a-ae72-5102-4668f058f5a0",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d2cf85da9402f6bae354a136d4216675db0adcda",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 20895922
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P800": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P800",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 20895949
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$6a43e36c-4823-8cdf-5879-e51a45bcaad9",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d2cf85da9402f6bae354a136d4216675db0adcda",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 20895922
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P800",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 772056
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$bd2fbe76-4128-440e-cc2e-f11f11038a09",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d2cf85da9402f6bae354a136d4216675db0adcda",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 20895922
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P800",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 20895966
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q7251$0fe0e5e7-4d76-3a5d-e82c-fb119e0af5ea",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d2cf85da9402f6bae354a136d4216675db0adcda",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 20895922
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "sitelinks": {
+                "afwiki": {
+                    "site": "afwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "alswiki": {
+                    "site": "alswiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "anwiki": {
+                    "site": "anwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "arwiki": {
+                    "site": "arwiki",
+                    "title": "\u0622\u0644\u0627\u0646 \u062a\u0648\u0631\u0646\u062c",
+                    "badges": []
+                },
+                "arzwiki": {
+                    "site": "arzwiki",
+                    "title": "\u0627\u0644\u0627\u0646 \u062a\u0648\u0631\u064a\u0646\u062c",
+                    "badges": []
+                },
+                "astwiki": {
+                    "site": "astwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "aswiki": {
+                    "site": "aswiki",
+                    "title": "\u098f\u09b2\u09be\u09a8 \u099f\u09cd\u09af\u09c1\u09f0\u09bf\u0982",
+                    "badges": [
+                        "Q17437798"
+                    ]
+                },
+                "azwiki": {
+                    "site": "azwiki",
+                    "title": "Alan T\u00fcrinq",
+                    "badges": []
+                },
+                "bat_smgwiki": {
+                    "site": "bat_smgwiki",
+                    "title": "Alans Tior\u0117ngs",
+                    "badges": []
+                },
+                "bawiki": {
+                    "site": "bawiki",
+                    "title": "\u0410\u043b\u0430\u043d \u0422\u044c\u044e\u0440\u0438\u043d\u0433",
+                    "badges": []
+                },
+                "be_x_oldwiki": {
+                    "site": "be_x_oldwiki",
+                    "title": "\u042d\u043b\u0430\u043d \u0422\u2019\u044e\u0440\u044b\u043d\u0433",
+                    "badges": []
+                },
+                "bewiki": {
+                    "site": "bewiki",
+                    "title": "\u0410\u043b\u0430\u043d \u041c\u0430\u0442\u044b\u0441\u0430\u043d \u0426\u044c\u044e\u0440\u044b\u043d\u0433",
+                    "badges": []
+                },
+                "bgwiki": {
+                    "site": "bgwiki",
+                    "title": "\u0410\u043b\u044a\u043d \u0422\u044e\u0440\u0438\u043d\u0433",
+                    "badges": []
+                },
+                "bnwiki": {
+                    "site": "bnwiki",
+                    "title": "\u0985\u09cd\u09af\u09be\u09b2\u09be\u09a8 \u099f\u09c1\u09b0\u09bf\u0982",
+                    "badges": []
+                },
+                "brwiki": {
+                    "site": "brwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "bswiki": {
+                    "site": "bswiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "cawiki": {
+                    "site": "cawiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "cawikiquote": {
+                    "site": "cawikiquote",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "cewiki": {
+                    "site": "cewiki",
+                    "title": "\u0422\u044c\u044e\u0440\u0438\u043d\u0433, \u0410\u043b\u0430\u043d",
+                    "badges": []
+                },
+                "ckbwiki": {
+                    "site": "ckbwiki",
+                    "title": "\u0626\u0627\u0644\u0627\u0646 \u062a\u06cc\u0648\u0631\u06cc\u0646\u06af",
+                    "badges": []
+                },
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "cowiki": {
+                    "site": "cowiki",
+                    "title": "Alanu Turing",
+                    "badges": []
+                },
+                "cswiki": {
+                    "site": "cswiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "cswikiquote": {
+                    "site": "cswikiquote",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "cywiki": {
+                    "site": "cywiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "cywikiquote": {
+                    "site": "cywikiquote",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "dawiki": {
+                    "site": "dawiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "dewiki": {
+                    "site": "dewiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "dewikiquote": {
+                    "site": "dewikiquote",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "elwiki": {
+                    "site": "elwiki",
+                    "title": "\u0386\u03bb\u03b1\u03bd \u03a4\u03bf\u03cd\u03c1\u03b9\u03bd\u03b3\u03ba",
+                    "badges": []
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Alan Turing",
+                    "badges": [
+                        "Q17437798"
+                    ]
+                },
+                "enwikiquote": {
+                    "site": "enwikiquote",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "eowiki": {
+                    "site": "eowiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "eswikiquote": {
+                    "site": "eswikiquote",
+                    "title": "Alan Mathison Turing",
+                    "badges": []
+                },
+                "etwiki": {
+                    "site": "etwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "euwiki": {
+                    "site": "euwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "fawiki": {
+                    "site": "fawiki",
+                    "title": "\u0622\u0644\u0646 \u062a\u0648\u0631\u06cc\u0646\u06af",
+                    "badges": []
+                },
+                "fiwiki": {
+                    "site": "fiwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "fowiki": {
+                    "site": "fowiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "frwikiquote": {
+                    "site": "frwikiquote",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "furwiki": {
+                    "site": "furwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "fywiki": {
+                    "site": "fywiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "ganwiki": {
+                    "site": "ganwiki",
+                    "title": "\u5716\u9748",
+                    "badges": []
+                },
+                "gawiki": {
+                    "site": "gawiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "gdwiki": {
+                    "site": "gdwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "glwiki": {
+                    "site": "glwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "guwiki": {
+                    "site": "guwiki",
+                    "title": "\u0a8d\u0ab2\u0aa8 \u0a9f\u0acd\u0aaf\u0ac1\u0ab0\u0abf\u0a82\u0a97",
+                    "badges": []
+                },
+                "hewiki": {
+                    "site": "hewiki",
+                    "title": "\u05d0\u05dc\u05df \u05d8\u05d9\u05d5\u05e8\u05d9\u05e0\u05d2",
+                    "badges": []
+                },
+                "hewikiquote": {
+                    "site": "hewikiquote",
+                    "title": "\u05d0\u05dc\u05df \u05d8\u05d9\u05d5\u05e8\u05d9\u05e0\u05d2",
+                    "badges": []
+                },
+                "hifwiki": {
+                    "site": "hifwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "hiwiki": {
+                    "site": "hiwiki",
+                    "title": "\u090f\u0932\u0947\u0928 \u091f\u094d\u092f\u0942\u0930\u093f\u0902\u0917",
+                    "badges": []
+                },
+                "hrwiki": {
+                    "site": "hrwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "htwiki": {
+                    "site": "htwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "huwiki": {
+                    "site": "huwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "hywiki": {
+                    "site": "hywiki",
+                    "title": "\u0531\u056c\u0561\u0576 \u0539\u0575\u0578\u0582\u0580\u056b\u0576\u0563",
+                    "badges": []
+                },
+                "idwiki": {
+                    "site": "idwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "ilowiki": {
+                    "site": "ilowiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "iowiki": {
+                    "site": "iowiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "iswiki": {
+                    "site": "iswiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "itwiki": {
+                    "site": "itwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "itwikiquote": {
+                    "site": "itwikiquote",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "jawiki": {
+                    "site": "jawiki",
+                    "title": "\u30a2\u30e9\u30f3\u30fb\u30c1\u30e5\u30fc\u30ea\u30f3\u30b0",
+                    "badges": []
+                },
+                "jbowiki": {
+                    "site": "jbowiki",
+                    "title": ".alan turin",
+                    "badges": []
+                },
+                "jvwiki": {
+                    "site": "jvwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "kawiki": {
+                    "site": "kawiki",
+                    "title": "\u10d0\u10da\u10d0\u10dc \u10e2\u10d8\u10e3\u10e0\u10d8\u10dc\u10d2\u10d8",
+                    "badges": []
+                },
+                "kkwiki": {
+                    "site": "kkwiki",
+                    "title": "\u0410\u043b\u0430\u043d \u0422\u044c\u044e\u0440\u0438\u043d\u0433",
+                    "badges": []
+                },
+                "knwiki": {
+                    "site": "knwiki",
+                    "title": "\u0c85\u0cb2\u0cc6\u0ca8\u0ccd \u0c9f\u0ccd\u0caf\u0cc2\u0cb0\u0cbf\u0c82\u0c97\u0ccd",
+                    "badges": []
+                },
+                "kowiki": {
+                    "site": "kowiki",
+                    "title": "\uc568\ub7f0 \ud29c\ub9c1",
+                    "badges": []
+                },
+                "kuwiki": {
+                    "site": "kuwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "lawiki": {
+                    "site": "lawiki",
+                    "title": "Alanus Mathison Turing",
+                    "badges": [
+                        "Q17437796"
+                    ]
+                },
+                "lbwiki": {
+                    "site": "lbwiki",
+                    "title": "Alan M. Turing",
+                    "badges": []
+                },
+                "lijwiki": {
+                    "site": "lijwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "liwiki": {
+                    "site": "liwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "lmowiki": {
+                    "site": "lmowiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "ltwiki": {
+                    "site": "ltwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "lvwiki": {
+                    "site": "lvwiki",
+                    "title": "Alans Tj\u016brings",
+                    "badges": []
+                },
+                "mgwiki": {
+                    "site": "mgwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "mkwiki": {
+                    "site": "mkwiki",
+                    "title": "\u0410\u043b\u0430\u043d \u0422\u0458\u0443\u0440\u0438\u043d\u0433",
+                    "badges": []
+                },
+                "mlwiki": {
+                    "site": "mlwiki",
+                    "title": "\u0d05\u0d32\u0d7b \u0d1f\u0d4d\u0d2f\u0d42\u0d31\u0d3f\u0d02\u0d17\u0d4d",
+                    "badges": []
+                },
+                "mnwiki": {
+                    "site": "mnwiki",
+                    "title": "\u0410\u043b\u0430\u043d \u041c\u0430\u0442\u0438\u0441\u043e\u043d \u0422\u044e\u0440\u0438\u043d\u0433",
+                    "badges": []
+                },
+                "mrwiki": {
+                    "site": "mrwiki",
+                    "title": "\u0972\u0932\u0928 \u091f\u094d\u092f\u0941\u0930\u093f\u0902\u0917",
+                    "badges": []
+                },
+                "mswiki": {
+                    "site": "mswiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "mtwiki": {
+                    "site": "mtwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "mwlwiki": {
+                    "site": "mwlwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "newwiki": {
+                    "site": "newwiki",
+                    "title": "\u090f\u0932\u0947\u0928 \u0924\u094d\u092f\u0941\u0930\u093f\u0919\u094d\u0917",
+                    "badges": []
+                },
+                "nlwiki": {
+                    "site": "nlwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "nnwiki": {
+                    "site": "nnwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "nowiki": {
+                    "site": "nowiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "ocwiki": {
+                    "site": "ocwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "orwiki": {
+                    "site": "orwiki",
+                    "title": "\u0b06\u0b32\u0b3e\u0b28 \u0b1f\u0b4d\u0b5f\u0b41\u0b30\u0b3f\u0b19\u0b4d\u0b17",
+                    "badges": []
+                },
+                "pamwiki": {
+                    "site": "pamwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "pawiki": {
+                    "site": "pawiki",
+                    "title": "\u0a05\u0a32\u0a3e\u0a28 \u0a1f\u0a42\u0a30\u0a3f\u0a70\u0a17",
+                    "badges": []
+                },
+                "plwiki": {
+                    "site": "plwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "plwikiquote": {
+                    "site": "plwikiquote",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "pmswiki": {
+                    "site": "pmswiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "pnbwiki": {
+                    "site": "pnbwiki",
+                    "title": "\u0627\u0644\u0627\u0646 \u0679\u0648\u0631\u0646\u06af",
+                    "badges": []
+                },
+                "ptwiki": {
+                    "site": "ptwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "rowiki": {
+                    "site": "rowiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "ruewiki": {
+                    "site": "ruewiki",
+                    "title": "\u0410\u043b\u0430\u043d \u0422\u044e\u0440\u0456\u043d\u0491",
+                    "badges": []
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "\u0422\u044c\u044e\u0440\u0438\u043d\u0433, \u0410\u043b\u0430\u043d",
+                    "badges": [
+                        "Q17437798"
+                    ]
+                },
+                "ruwikiquote": {
+                    "site": "ruwikiquote",
+                    "title": "\u0410\u043b\u0430\u043d \u041c\u0430\u0442\u0438\u0441\u043e\u043d \u0422\u044c\u044e\u0440\u0438\u043d\u0433",
+                    "badges": []
+                },
+                "sahwiki": {
+                    "site": "sahwiki",
+                    "title": "\u0422\u044c\u044e\u0440\u0438\u043d\u0433 \u0410\u043b\u0430\u043d \u041c\u0430\u0442\u0438\u0441\u043e\u043d",
+                    "badges": []
+                },
+                "sawiki": {
+                    "site": "sawiki",
+                    "title": "\u090f\u0932\u0947\u0928 \u091f\u094d\u092f\u0942\u0930\u093f\u0902\u0917",
+                    "badges": []
+                },
+                "scnwiki": {
+                    "site": "scnwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "scowiki": {
+                    "site": "scowiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "shwiki": {
+                    "site": "shwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "simplewiki": {
+                    "site": "simplewiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "skwiki": {
+                    "site": "skwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "slwiki": {
+                    "site": "slwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "sqwiki": {
+                    "site": "sqwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "srwiki": {
+                    "site": "srwiki",
+                    "title": "\u0410\u043b\u0430\u043d \u0422\u0458\u0443\u0440\u0438\u043d\u0433",
+                    "badges": []
+                },
+                "svwiki": {
+                    "site": "svwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "swwiki": {
+                    "site": "swwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "tawiki": {
+                    "site": "tawiki",
+                    "title": "\u0b85\u0bb2\u0ba9\u0bcd \u0b9f\u0bc2\u0bb0\u0bbf\u0b99\u0bcd",
+                    "badges": []
+                },
+                "tewiki": {
+                    "site": "tewiki",
+                    "title": "\u0c05\u0c32\u0c3e\u0c28\u0c4d \u0c1f\u0c4d\u0c2f\u0c42\u0c30\u0c3f\u0c02\u0c17\u0c4d\u200c",
+                    "badges": []
+                },
+                "tgwiki": {
+                    "site": "tgwiki",
+                    "title": "\u0410\u043b\u0430\u043d \u0422\u044e\u0440\u0438\u043d\u0433",
+                    "badges": []
+                },
+                "thwiki": {
+                    "site": "thwiki",
+                    "title": "\u0e41\u0e2d\u0e25\u0e31\u0e19 \u0e17\u0e31\u0e27\u0e23\u0e34\u0e07",
+                    "badges": []
+                },
+                "tlwiki": {
+                    "site": "tlwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "trwiki": {
+                    "site": "trwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "ttwiki": {
+                    "site": "ttwiki",
+                    "title": "Alan Tyuring",
+                    "badges": []
+                },
+                "ukwiki": {
+                    "site": "ukwiki",
+                    "title": "\u0410\u043b\u0430\u043d \u0422\u044e\u0440\u0456\u043d\u0433",
+                    "badges": []
+                },
+                "urwiki": {
+                    "site": "urwiki",
+                    "title": "\u0627\u06cc\u0644\u0646 \u062a\u0648\u0631\u0646\u06af",
+                    "badges": []
+                },
+                "uzwiki": {
+                    "site": "uzwiki",
+                    "title": "Alan Tyuring",
+                    "badges": []
+                },
+                "viwiki": {
+                    "site": "viwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "vowiki": {
+                    "site": "vowiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "warwiki": {
+                    "site": "warwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "yiwiki": {
+                    "site": "yiwiki",
+                    "title": "\u05e2\u05dc\u05df \u05d8\u05d9\u05d5\u05e8\u05d9\u05e0\u05d2",
+                    "badges": []
+                },
+                "yowiki": {
+                    "site": "yowiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "zh_min_nanwiki": {
+                    "site": "zh_min_nanwiki",
+                    "title": "Alan Turing",
+                    "badges": []
+                },
+                "zh_yuewiki": {
+                    "site": "zh_yuewiki",
+                    "title": "\u5716\u9748",
+                    "badges": []
+                },
+                "zhwiki": {
+                    "site": "zhwiki",
+                    "title": "\u827e\u4f26\u00b7\u56fe\u7075",
+                    "badges": []
+                },
+                "zhwikiquote": {
+                    "site": "zhwikiquote",
+                    "title": "\u827e\u4f26\u00b7\u56fe\u7075",
+                    "badges": []
+                }
+            }
+        }
+    },
+    "success": 1
+}
