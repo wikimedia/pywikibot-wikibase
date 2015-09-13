@@ -15,8 +15,7 @@ from pywikibase import Coordinate
 from pywikibase import WbTime
 from pywikibase import WbQuantity
 from pywikibase import Property
-import pywikibase.itemPage
-
+import pywikibase.itempage
 
 class Claim(Property):
 
@@ -25,10 +24,9 @@ class Claim(Property):
 
     Claims are standard claims as well as references.
     """
-
     TARGET_CONVERTER = {
         'wikibase-item': lambda value:
-            pywikibase.itemPage.ItemPage('Q' + str(value['numeric-id'])),
+            pywikibase.itempage.ItemPage('Q' + str(value['numeric-id'])),
         'globe-coordinate': Coordinate.fromWikibase,
         'time': lambda value: WbTime.fromWikibase(value),
         'quantity': lambda value: WbQuantity.fromWikibase(value),
@@ -297,16 +295,7 @@ class Claim(Property):
             source[claim.getID()].append(claim)
         self.sources.append(source)
 
-    def removeSource(self, source, **kwargs):
-        """
-        Remove the source.  Calls removeSources().
-
-        @param source: the source to remove
-        @type source: pywikibase.Claim
-        """
-        self.removeSources([source], **kwargs)
-
-    def removeSources(self, sources, **kwargs):
+    def removeSources(self, sources):
         """
         Remove the sources.
 
@@ -318,7 +307,7 @@ class Claim(Property):
             source_dict[source.getID()].append(source)
             self.sources.remove(source_dict)
 
-    def addQualifier(self, qualifier, **kwargs):
+    def addQualifier(self, qualifier):
         """Add the given qualifier.
 
         @param qualifier: the qualifier to add
@@ -345,6 +334,7 @@ class Claim(Property):
             false otherwise
         @rtype: bool
         """
+        import pywikibase.itemPage
         if (isinstance(self.target, pywikibase.itemPage.ItemPage) and
                 isinstance(value, basestring) and
                 self.target.id == value):

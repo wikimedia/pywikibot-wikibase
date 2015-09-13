@@ -12,7 +12,6 @@ from __future__ import unicode_literals
 from collections import defaultdict, Counter
 
 import json
-import pywikibase.claim
 
 
 class WikibasePage(object):
@@ -43,6 +42,9 @@ class WikibasePage(object):
                 self._content = json.loads(content)
         if not hasattr(self, '_content'):
             raise ValueError('You must provide some content.')
+
+        if 'id' in self._content or 'title' in self._content:
+            self.id = self._content.get('title', self._content['id'])
         # aliases
         self.aliases = {}
         if 'aliases' in self._content:
@@ -66,7 +68,7 @@ class WikibasePage(object):
                     'descriptions'][lang]['value']
 
         # claims
-        Claim = pywikibase.claim.Claim
+        from pywikibase.claim import Claim
         self.claims = {}
         if 'claims' in self._content:
             for pid in self._content['claims']:

@@ -13,7 +13,6 @@ from __future__ import unicode_literals
 from pywikibase.coordinate import Coordinate
 from pywikibase.wbtime import WbTime
 from pywikibase.wbquantity import WbQuantity
-from pywikibase.itempage import ItemPage
 
 try:
     unicode = unicode
@@ -34,7 +33,7 @@ class Property():
     it subclasses this Property class, but a claim does not have Page like
     behaviour and semantics.
     """
-
+    from pywikibase.itempage import ItemPage # noqa
     types = {'wikibase-item': ItemPage,
              'string': basestring,
              'commonsMedia': basestring,

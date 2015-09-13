@@ -13,6 +13,10 @@ from __future__ import unicode_literals
 import re
 import json
 
+try:
+    long
+except NameError:
+    long = int
 
 class WbTime(object):
 
