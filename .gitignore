@@ -3,6 +3,7 @@
 *.*~
 /.tox
 /*.egg
+/*.egg-info
 *pycache*
 build
 dist
