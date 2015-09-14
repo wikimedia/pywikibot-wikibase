@@ -33,7 +33,7 @@ class Property():
     it subclasses this Property class, but a claim does not have Page like
     behaviour and semantics.
     """
-    from pywikibase.itempage import ItemPage # noqa
+    from pywikibase.itempage import ItemPage  # noqa
     types = {'wikibase-item': ItemPage,
              'string': basestring,
              'commonsMedia': basestring,

@@ -18,6 +18,7 @@ try:
 except NameError:
     long = int
 
+
 class WbTime(object):
 
     """A Wikibase time representation."""

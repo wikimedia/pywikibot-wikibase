@@ -17,6 +17,7 @@ from pywikibase import WbQuantity
 from pywikibase import Property
 import pywikibase.itempage
 
+
 class Claim(Property):
 
     """
@@ -145,7 +146,6 @@ class Claim(Property):
 
     def __eq__(self, other):
         return other.toJSON() == self.toJSON()
-
 
     def toJSON(self):
         """

@@ -1,5 +1,4 @@
 import unittest
-import codecs
 import json
 import os
 
@@ -10,10 +9,12 @@ try:
 except NameError:
     basestring = str
 
+
 class TestWikibasePage(unittest.TestCase):
 
     def setUp(self):
-        with open(os.path.join(os.path.split(__file__)[0], 'data', 'Q7251.wd')) as f:
+        with open(os.path.join(os.path.split(__file__)[0],
+                               'data', 'Q7251.wd')) as f:
             self._content = json.load(f)['entities']['Q7251']
         self.wb_page = WikibasePage()
         self.wb_page.get(content=self._content)
