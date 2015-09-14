@@ -10,7 +10,7 @@ except NameError:
     basestring = str
 
 
-class TestWikibasePage(unittest.TestCase):
+class TestItemPage(unittest.TestCase):
 
     def setUp(self):
         with open(os.path.join(os.path.split(__file__)[0],

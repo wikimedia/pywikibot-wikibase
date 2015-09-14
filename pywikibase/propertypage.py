@@ -25,28 +25,28 @@ class PropertyPage(WikibasePage, Property):
         PropertyPage('P21')
     """
 
-    def __init__(self, source=None, title=u""):
+    def __init__(self, title=u"", datatype=None):
         """
         Constructor.
 
         @param title: page name of property, like "P##"
         @type title: str
         """
-        WikibasePage.__init__(self, source, title)
-        if not title or not self.id.startswith('P'):
+        if not title.startswith('P'):
             raise ValueError(
                 u"'%s' is not an property page title" % title)
-        Property.__init__(self, source, self.id)
+        self.id = title
+        Property.__init__(self, self.id, datatype)
 
-    def get(self, force=False, *args):
+    def get(self, *args):
         """
         Fetch the property entity, and cache it.
 
         @param force: override caching
         @param args: values of props
         """
-        if force or not hasattr(self, '_content'):
-            WikibasePage.get(self, force=force, *args)
+        if not hasattr(self, '_content'):
+            WikibasePage.get(self, *args)
 
     def newClaim(self, *args, **kwargs):
         """
