@@ -5,9 +5,9 @@ import os
 from pywikibase import WikibasePage, Claim
 
 try:
-    basestring
+    unicode = unicode
 except NameError:
-    basestring = str
+    basestring = (str, bytes)
 
 
 class TestWikibasePage(unittest.TestCase):

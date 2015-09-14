@@ -2,9 +2,9 @@ import unittest
 from pywikibase import PropertyPage, Claim
 
 try:
-    basestring
+    unicode = unicode
 except NameError:
-    basestring = str
+    basestring = (str, bytes)
 
 
 class TestPropertyPage(unittest.TestCase):

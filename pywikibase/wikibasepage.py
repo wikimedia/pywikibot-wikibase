@@ -13,6 +13,11 @@ from collections import defaultdict, Counter
 
 import json
 
+try:
+    unicode = unicode
+except NameError:
+    basestring = (str, bytes)
+
 
 class WikibasePage(object):
 

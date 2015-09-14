@@ -17,6 +17,11 @@ from pywikibase import WbQuantity
 from pywikibase import Property
 import pywikibase.itempage
 
+try:
+    unicode = unicode
+except NameError:
+    basestring = (str, bytes)
+
 
 class Claim(Property):
 
