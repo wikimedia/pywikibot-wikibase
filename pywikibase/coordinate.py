@@ -67,6 +67,9 @@ class Coordinate(object):
         string += ')'
         return string
 
+    def __eq__(self, other):
+        return other.toWikibase() == self.toWikibase()
+
     @property
     def entity(self):
         if self._entity:
@@ -79,7 +82,7 @@ class Coordinate(object):
 
         FIXME: Should this be in the DataSite object?
         """
-        if self.globe not in self.site.globes():
+        if not self._entity and self.globe not in self.site.globes():
             raise CoordinateGlobeUnknownException(
                 u"%s is not supported in Wikibase yet."
                 % self.globe)
@@ -91,11 +94,12 @@ class Coordinate(object):
                 }
 
     @classmethod
-    def fromWikibase(cls, data, site):
+    def fromWikibase(cls, data, site=None):
         """Constructor to create an object from Wikibase's JSON output."""
         globes = {}
-        for k in site.globes():
-            globes[site.globes()[k]] = k
+        if site:
+            for k in site.globes():
+                globes[site.globes()[k]] = k
 
         globekey = data['globe']
         if globekey:

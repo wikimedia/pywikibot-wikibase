@@ -21,6 +21,9 @@ class TestWikibasePage(unittest.TestCase):
 
     def test_init_wb(self):
         self.assertEqual(self.wb_page.getID(), 'Q7251')
+        wb_page = WikibasePage('Q7251')
+        self.assertNotEqual(self.wb_page, WikibasePage())
+        self.assertEqual(self.wb_page, wb_page)
 
     def test_descriptions(self):
         self.assertEqual(len(self.wb_page.descriptions), 22)
@@ -44,6 +47,16 @@ class TestWikibasePage(unittest.TestCase):
         self.assertIn('en', self.wb_page.aliases)
         self.assertIsInstance(self.wb_page.aliases['en'], list)
         self.assertIsInstance(self.wb_page.aliases['en'][0], basestring)
+
+    def test_to_json(self):
+        content = self._content
+        json_res = self.wb_page.toJSON()
+        self.assertEqual(content['labels'], json_res['labels'])
+        self.assertEqual(content['descriptions'], json_res['descriptions'])
+        self.assertEqual(content['aliases'], json_res['aliases'])
+        for p_number in content['claims']:
+            self.assertEqual(content['claims'][p_number],
+                             json_res['claims'][p_number])
 
 if __name__ == '__main__':
     unittest.main()

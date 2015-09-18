@@ -30,7 +30,7 @@ class TestWbTime(unittest.TestCase):
         t = self.time1.toWikibase()
         wb_t = {u'after': 0,
                 u'precision': 11,
-                u'time': u'+00000001912-06-23T00:00:00Z',
+                u'time': u'+1912-06-23T00:00:00Z',
                 u'timezone': 0,
                 u'calendarmodel': u'http://www.wikidata.org/entity/Q1985727',
                 u'before': 0}
@@ -44,7 +44,7 @@ class TestWbTime(unittest.TestCase):
 
     def timestr_tests(self):
         t = WbTime(year=2010, hour=12, minute=43, precision=14)
-        self.assertEqual(t.toTimestr(), '+00000002010-01-01T12:43:00Z')
+        self.assertEqual(t.toTimestr(), '+2010-01-01T12:43:00Z')
 
         # Consistency
         self.assertEqual(WbTime.fromTimestr(t.toTimestr()), t)

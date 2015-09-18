@@ -29,7 +29,7 @@ class WbQuantity(object):
                      the upper error and the second is the lower error value.
         """
         if amount is None:
-            raise ValueError('no amount given')
+            raise ValueError('No amount given')
         if unit is None:
             unit = '1'
         self.amount = amount
@@ -44,12 +44,12 @@ class WbQuantity(object):
 
     def toWikibase(self):
         """Convert the data to a JSON object for the Wikibase API."""
-        json = {'amount': self.amount,
-                'upperBound': self.upperBound,
-                'lowerBound': self.lowerBound,
-                'unit': self.unit
+        data = {'amount': self._normalize_value(self.amount),
+                'upperBound': self._normalize_value(self.upperBound),
+                'lowerBound': self._normalize_value(self.lowerBound),
+                'unit': str(self.unit)
                 }
-        return json
+        return data
 
     @classmethod
     def fromWikibase(cls, wb):
@@ -74,3 +74,9 @@ class WbQuantity(object):
     def __repr__(self):
         return (u"WbQuantity(amount=%(amount)s, upperBound=%(upperBound)s, "
                 u"lowerBound=%(lowerBound)s, unit=%(unit)s)" % self.__dict__)
+
+    @staticmethod
+    def _normalize_value(value):
+        if value > 0:
+            value = "+" + str(value)
+        return value

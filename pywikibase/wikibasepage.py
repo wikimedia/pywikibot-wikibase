@@ -27,6 +27,9 @@ class WikibasePage(object):
     There should be no need to instantiate this directly.
     """
 
+    def __init__(self, id=None):
+        self.id = id
+
     def __eq__(self, other):
         return other.id == self.id
 
@@ -90,7 +93,7 @@ class WikibasePage(object):
 
     def _diff_to(self, type_key, key_name, value_name, diffto, data):
         assert type_key not in data, 'Key type must be defined in data'
-        source = self._normalizeLanguages(getattr(self, type_key)).copy()
+        source = getattr(self, type_key).copy()
         diffto = {} if not diffto else diffto.get(type_key, {})
         new = set(source.keys())
         for key in diffto:
@@ -121,7 +124,7 @@ class WikibasePage(object):
 
         self._diff_to('descriptions', 'language', 'value', diffto, data)
 
-        aliases = self._normalizeLanguages(self.aliases).copy()
+        aliases = self.aliases
         if diffto and 'aliases' in diffto:
             for lang in set(diffto['aliases'].keys()) - set(aliases.keys()):
                 aliases[lang] = []
