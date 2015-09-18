@@ -49,12 +49,16 @@ class ItemPage(WikibasePage):
         """
         data = super(ItemPage, self).get(*args, **kwargs)
 
-        # sitelinks
+        # sitelinks and badges
         self.sitelinks = {}
+        self.badges = {}
         if 'sitelinks' in self._content:
             for dbname in self._content['sitelinks']:
                 self.sitelinks[dbname] = self._content[
                     'sitelinks'][dbname]['title']
+                if self._content['sitelinks'][dbname]['badges']:
+                    self.badges[dbname] = \
+                        self._content['sitelinks'][dbname]['badges']
 
         data['claims'] = self.claims
         data['sitelinks'] = self.sitelinks

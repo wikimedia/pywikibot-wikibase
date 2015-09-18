@@ -45,5 +45,11 @@ class TestItemPage(unittest.TestCase):
         self.assertNotEqual(self.item_page.claims, old_claims)
         self.assertNotIn('P31', self.item_page.claims)
 
+    def test_badges(self):
+        self.assertEqual(len(self.item_page.badges), 4)
+        self.assertEqual(self.item_page.badges['enwiki'], ['Q17437798'])
+        self.assertIn('enwiki', self.item_page.badges)
+        self.assertNotIn('fawiki', self.item_page.badges)
+
 if __name__ == '__main__':
     unittest.main()
