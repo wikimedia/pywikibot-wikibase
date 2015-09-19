@@ -76,11 +76,13 @@ class Claim(Property):
 
         @return: Claim
         """
-        datatype = data['mainsnak'].get('datatype', None)
+        datatype = data['mainsnak'].get('datatype')
         if not datatype:
+            datatype = data['mainsnak'].get('datavalue', {}).get('type')
+        if 'datatype' not in data['mainsnak']:
             datatype = cls._format_datatype(datatype)
         claim = cls(data['mainsnak']['property'],
-                    datatype=data['mainsnak'].get('datatype', None))
+                    datatype=datatype)
         if 'id' in data:
             claim.snak = data['id']
         elif 'hash' in data:
