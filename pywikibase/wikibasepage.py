@@ -31,6 +31,8 @@ class WikibasePage(object):
         self.id = id
 
     def __eq__(self, other):
+        if isinstance(other, basestring):
+            return other == self.id
         return other.id == self.id
 
     def get(self, content=None):

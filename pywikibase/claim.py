@@ -263,16 +263,6 @@ class Claim(Property):
         """Change the rank of the Claim and save."""
         self.rank = rank
 
-    def changeSnakType(self, value=None, **kwargs):
-        """
-        Save the new snak value.
-
-        TODO: Is this function really needed?
-        """
-        if value:
-            self.setSnakType(value)
-        self.changeTarget(snaktype=self.getSnakType(), **kwargs)
-
     def getSources(self):
         """
         Return a list of sources, each being a list of Claims.
@@ -302,6 +292,15 @@ class Claim(Property):
             source[claim.getID()].append(claim)
         self.sources.append(source)
 
+    def removeSource(self, source, **kwargs):
+        """
+        Remove the source.
+
+        @param source: the sources to remove
+        @type source: pywikibase.Claim
+        """
+        self.removeSources([source], **kwargs)
+
     def removeSources(self, sources):
         """
         Remove the sources.
@@ -321,6 +320,8 @@ class Claim(Property):
         @type qualifier: Claim
         """
         qualifier.isQualifier = True
+        if self.isQualifier is True or self.isReference is True:
+            raise ValueError('Qualifiers and Sources can not have qualifier.')
         if qualifier.getID() in self.qualifiers:
             self.qualifiers[qualifier.getID()].append(qualifier)
         else:
@@ -341,8 +342,8 @@ class Claim(Property):
             false otherwise
         @rtype: bool
         """
-        import pywikibase.itemPage
-        if (isinstance(self.target, pywikibase.itemPage.ItemPage) and
+        import pywikibase.itempage
+        if (isinstance(self.target, pywikibase.itempage.ItemPage) and
                 isinstance(value, basestring) and
                 self.target.id == value):
             return True
