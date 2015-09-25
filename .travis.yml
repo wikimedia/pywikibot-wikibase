@@ -6,8 +6,14 @@ python:
   - "3.5"
   - "nightly" # currently points to 3.6-dev
 
+before_install:
+  - pip install codecov
+
 # command to run tests
 script: nosetests -v
+
+after_success:
+  - codecov
 
 notifications:
 #  email:
