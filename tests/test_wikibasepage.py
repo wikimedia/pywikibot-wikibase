@@ -2,7 +2,7 @@ import unittest
 import json
 import os
 
-from pywikibase import WikibasePage, Claim
+from pywikibase import WikibasePage, Claim, ItemPage
 
 try:
     unicode = unicode
@@ -24,6 +24,8 @@ class TestWikibasePage(unittest.TestCase):
         wb_page = WikibasePage('Q7251')
         self.assertNotEqual(self.wb_page, WikibasePage())
         self.assertEqual(self.wb_page, wb_page)
+        wb_page = WikibasePage()
+        self.assertRaises(ValueError, wb_page.get)
 
     def test_descriptions(self):
         self.assertEqual(len(self.wb_page.descriptions), 22)
@@ -57,6 +59,23 @@ class TestWikibasePage(unittest.TestCase):
         for p_number in content['claims']:
             self.assertEqual(content['claims'][p_number],
                              json_res['claims'][p_number])
+
+    def test_diffto(self):
+        wb_page = self.wb_page
+        content = wb_page.toJSON()
+        claim_json = wb_page.claims['P31'][0].toJSON()
+        wb_page.claims['P31'][0].target = ItemPage('Q6')
+        res = wb_page.toJSON(diffto=claim_json)
+        self.assertEqual(content['labels'], res['labels'])
+        self.assertEqual(content['descriptions'], res['descriptions'])
+        self.assertEqual(content['aliases'], res['aliases'])
+        for p_number in content['claims']:
+            if p_number != 'P31':
+                self.assertEqual(content['claims'][p_number],
+                                 res['claims'][p_number])
+        snak_json = res['claims']['P31'][0]['mainsnak']
+        self.assertEqual(snak_json['datavalue']['value']['numeric-id'], 6)
+
 
 if __name__ == '__main__':
     unittest.main()

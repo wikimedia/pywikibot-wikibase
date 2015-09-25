@@ -259,10 +259,6 @@ class Claim(Property):
         """Set the rank of the Claim."""
         self.rank = rank
 
-    def changeRank(self, rank):
-        """Change the rank of the Claim and save."""
-        self.rank = rank
-
     def getSources(self):
         """
         Return a list of sources, each being a list of Claims.

@@ -35,6 +35,14 @@ class TestClaim(unittest.TestCase):
         self.assertRaises(ValueError, Claim, 'P31', isQualifier=True,
                           isReference=True)
 
+    def test_set_target(self):
+        claim = Claim('P144', datatype='wikibase-item')
+        self.assertRaises(ValueError, claim.setTarget, "Hello!")
+
+        claim = Claim('P144', datatype='time')
+        self.assertRaises(ValueError, claim.setTarget, ItemPage('Q5'))
+        self.assertRaises(ValueError, claim.setTarget, "Hello!")
+
     def test_sources(self):
         self.assertIsInstance(self.claim1.sources, list)
         self.assertIsInstance(self.claim1.sources[0], OrderedDict)
@@ -83,6 +91,13 @@ class TestClaim(unittest.TestCase):
         self.assertTrue(self.claim3.target_equals('Alan Turing Aged 16.jpg'))
         self.assertFalse(self.claim1.target_equals('Q6'))
 
+    def test_rank(self):
+        self.assertEqual(self.claim1.getRank(), 'normal')
+
+        claim = Claim('P134', datatype='wikibase-item')
+        claim.setRank('preferred')
+        self.assertEqual(claim.getRank(), 'preferred')
+        self.assertEqual(claim.rank, 'preferred')
 
 if __name__ == '__main__':
     unittest.main()
