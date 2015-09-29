@@ -39,7 +39,7 @@ dependency_links = []
 
 
 name = 'pywikibase'
-version = '0.0.1'
+version = '0.1a'
 github_url = 'https://github.com/wikimedia/pywikibot-wikibase'
 
 setup(
@@ -56,7 +56,7 @@ setup(
     url='https://www.mediawiki.org/wiki/Pywikibot',
     classifiers=[
         'License :: OSI Approved :: MIT License',
-        'Development Status :: 2 - Pre-Alpha',
+        'Development Status :: 3 - Alpha',
         'Operating System :: OS Independent',
         'Intended Audience :: Developers',
         'Environment :: Console',

@@ -1,0 +1,7 @@
+Release 0.1a (29 September 2015)
+
+Major improvements include:
+- Tests added covering 83%
+- Major bug fixes to handle new XML output of Wikibase
+- Remove redundant methods
+- Flake8 fixes
