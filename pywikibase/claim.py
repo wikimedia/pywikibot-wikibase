@@ -400,7 +400,7 @@ class Claim(Property):
         if self.type == 'wikibase-item':
             value = {'entity-type': 'item',
                      'numeric-id': self.getTarget().getID(numeric=True)}
-        elif self.type in ('string', 'url', 'commonsMedia'):
+        elif self.type in ('string', 'url', 'commonsMedia', 'monolingualtext'):
             value = self.getTarget()
         elif self.type in ('globe-coordinate', 'time', 'quantity'):
             value = self.getTarget().toWikibase()
