@@ -107,7 +107,6 @@ class Coordinate(object):
         else:
             # Default to earth or should we use None here?
             globe = 'earth'
-
         return cls(data['latitude'], data['longitude'],
                    data['altitude'], data['precision'],
                    globe, site=site, entity=data['globe'])
@@ -135,6 +134,8 @@ class Coordinate(object):
                 self._dim/(radius*math.cos(math.radians(self.lat))))
         """
         if not self._precision:
+            if self._dim is None:
+                return self._precision
             radius = 6378137  # TODO: Support other globes
             self._precision = math.degrees(
                 self._dim / (radius * math.cos(math.radians(self.lat))))
