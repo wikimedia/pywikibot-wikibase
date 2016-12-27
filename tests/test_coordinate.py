@@ -39,5 +39,6 @@ class TestCoordinate(unittest.TestCase):
         self.assertEqual(
             self.coordinate.entity, 'http://www.wikidata.org/entity/Q2')
 
+
 if __name__ == '__main__':
     unittest.main()

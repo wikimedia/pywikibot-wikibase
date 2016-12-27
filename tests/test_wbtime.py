@@ -49,5 +49,6 @@ class TestWbTime(unittest.TestCase):
         # Consistency
         self.assertEqual(WbTime.fromTimestr(t.toTimestr()), t)
 
+
 if __name__ == '__main__':
     unittest.main()

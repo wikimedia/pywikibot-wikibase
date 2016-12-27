@@ -22,5 +22,6 @@ class TestPropertyPage(unittest.TestCase):
         self.assertIsInstance(claim, Claim)
         self.assertEqual(claim.id, self.property_page.getID())
 
+
 if __name__ == '__main__':
     unittest.main()

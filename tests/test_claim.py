@@ -99,5 +99,6 @@ class TestClaim(unittest.TestCase):
         self.assertEqual(claim.getRank(), 'preferred')
         self.assertEqual(claim.rank, 'preferred')
 
+
 if __name__ == '__main__':
     unittest.main()

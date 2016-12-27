@@ -51,5 +51,6 @@ class TestItemPage(unittest.TestCase):
         self.assertIn('enwiki', self.item_page.badges)
         self.assertNotIn('fawiki', self.item_page.badges)
 
+
 if __name__ == '__main__':
     unittest.main()
