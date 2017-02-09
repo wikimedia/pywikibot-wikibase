@@ -6,9 +6,14 @@
 # Distributed under the terms of the MIT license.
 #
 
+import os
 import sys
 
 from setuptools import find_packages, setup
+
+about_path = os.path.join(os.path.dirname(__file__), "pywikibase/about.py")
+exec(compile(open(about_path).read(), about_path, "exec"))
+
 
 PYTHON_VERSION = sys.version_info[:3]
 PY2 = (PYTHON_VERSION[0] == 2)
@@ -40,16 +45,15 @@ dependency_links = []
 
 name = 'pywikibase'
 version = '0.0.3'
-github_url = 'https://github.com/wikimedia/pywikibot-wikibase'
 
 setup(
-    name=name,
-    version=version,
-    description='Python package to handle Wikibase DataModel',
+    name=__name__,  # noqa
+    version=__version__,  # noqa
+    description=__description__,  # noqa
+    maintainer=__maintainer__,  # noqa
+    maintainer_email=__maintainer_email__,  # noqa
+    license=__license__,  # noqa
     long_description=open('README.rst').read(),
-    maintainer='The Pywikibot team',
-    maintainer_email='pywikibot@lists.wikimedia.org',
-    license='MIT License',
     install_requires=dependencies,
     dependency_links=dependency_links,
     packages=find_packages(),
